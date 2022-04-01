@@ -1,15 +1,16 @@
-const UserCard = (props)=>{
+import "./Card.css"
+
+const UserCard = ({fullname, username})=>{
     return(
-        <div style={{
+        <div className="card" style={{
             margin: "0 10px",
             borderRadius: 10,
             width: 120,
             padding: 10,
             boxShadow: "0px 0px 10px black",
-            backgroundColor: "white"
         }}>
-            <h3>{Full name of user}</h3>
-            <p>username of user</p>
+            <h3>{fullname}</h3>
+            <p>{username}</p>
         </div>
     )
 }

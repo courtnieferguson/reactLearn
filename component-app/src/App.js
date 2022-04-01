@@ -38,7 +38,7 @@ function App() {
             overflow:"scroll"
         }}>
             {users.map(user => <UserCard fullname={user.fullname} username={user.username} />)}
-            <UserCard />
+            <UserCard username={"Daniel"} fullname={"Daniel Davis"} />
 
         </div>
     );
