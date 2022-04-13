@@ -1,5 +1,5 @@
-import Header from "./Components/Header";
-import UserCard from "./Components/UserCard";
+import Header from "./components/Header";
+import UserCard from "./components/UserCard";
 
 const users = [
     {
@@ -37,7 +37,7 @@ function App() {
             flexDirection:"row",
             overflow:"scroll"
         }}>
-            {users.map(user => <UserCard fullname={user.fullname} username={user.username} />)}
+            {users.map(user => <UserCard isAdmin={user.fullname.length < 10} fullname={user.fullname} username={user.username} />)}
             <UserCard username={"Daniel"} fullname={"Daniel Davis"} />
 
         </div>

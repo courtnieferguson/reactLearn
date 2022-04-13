@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "styled-components": "^5.3.5",
+    "tar": "^6.1.11"
+  },
+  "name": "hello-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/courtnieferguson/reactLearn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/courtnieferguson/reactLearn/issues"
+  },
+  "homepage": "https://github.com/courtnieferguson/reactLearn#readme",
+  "description": ""
+}
